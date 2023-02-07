@@ -23,33 +23,33 @@ public class App {
 		// 	output("Element: " + i + " : "+ intArr[i]);
 		// }
 			
-		// Deklaration: String
-		// String [] strArr = new String [2];
-		// String [] strArr = {"Hallo","Nikola"};
+		// // Deklaration: String
+		// // String [] strArr = new String [2];
+		// String [] strArr = {"Hallo","Patrick"};
 		
 		// for (int i = 0; i < strArr.length; i++) {
 		// 	output("Element: " + strArr[i]);
 		// }
 		
 		
-		// Mehrdimensionale Arrays
-		// String [][] strMdArr = new String [2][2];
+		// // Mehrdimensionale Arrays
+		// // String [][] strMdArr = new String [2][2];
 		
 		// String [][] strMdArr = {{"Max","Mustermann"},{"Maxine","Musterfrau"}};
 		
-		// {{0,2,1},{1,0,0}}  x|y|z
+		// // {{0,2,1},{1,0,0}}  x|y|z
 		
 		// output(strMdArr[0][0]);
 		// output(strMdArr[1][1]);
 		
 		// // nested loops
 		// for (int i = 0; i < strMdArr.length; i++) {
-		// 	for (int j = 0; j < strMdArr.length; j++) {
+		// 	for (int j = 0; j < strMdArr[i].length; j++) {
 		// 		output("Indizes i/j: " + "i:" +  i + " j:"+ j + " " + strMdArr[i][j]);
 		// 	}
 		// }
 		
-		// // Deklaration | Chars
+		// // // Deklaration | Chars
 		// char [] letters = {'d','c','a','A','b'};
 	
 		// 	output("");
@@ -81,7 +81,7 @@ public class App {
 		// 	output("searchIndex: " + searchIndex);  // -(length+1)
 		// 	// .... isInArray()
 			
-		// 	output("---- fill() ----");
+		// // 	output("---- fill() ----");
 		// 	//.. Array füllen
 		// 	Arrays.fill(letters, '0');
 		// 	for (int i = 0; i < letters.length; i++) {
